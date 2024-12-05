@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+}
+/* --- CABEÇARIO --- */
+.caixa_cabecario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #679273;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100px;
+}
+#logo_cabeçario {
+    margin-top: 10px;
+}
+
+.caixa_link_paginas {
+    display: flex;
+}
+
+.link_paginas {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.link_paginas li a {
+    color: #D9D9D9;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+
+
+
+.link_paginas li a:hover {
+    color: #FFFFFF;
+    /* Muda a cor ao passar o mouse */
+
+
+
+
+}
+
+
+
+
+.btn_doar {
+    border-radius: 4px;
+    background: #008041;
+    width: 102px;
+    height: 38px;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+.btn_doar:hover {
+    background: #005A2E;
+}
+
+
+
+
+/* --- FIM DO CABEÇARIO --- */
+
+
+/* -- Container Principal -- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background: #D9D9D9;
+    
+       
+}
+ 
+
+
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 100px;
+    padding-right: 250px;
+
+    
+
+}
+
+
+
+.info-container{
+    padding-top: 110px;
+    padding-right: 100px;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+}
+
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+   
+}
+.form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+
+
+label {
+    font-weight: bold;
+}
+
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+
+.btn-enviar {
+    padding: 10px;
+    background: #008041;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.btn-enviar:hover {
+    background-color: #00532A
+}
+
+
+.obrigatorio {
+    font-size: 12px;
+    color: #666;
+}
+
+
+/* -- Info Container -- */
+.info-container {
+    text-align: left;
+}
+
+
+.info-container p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+.info-container h2 {
+    margin-bottom: 10px;
+    color: #008041;
+}
+
+
+.localizacao {
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+/* -- Formulário Checkbox -- */
+.form-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.form-check label {
+    font-size: 14px;
+}
+
+
+.text-check {
+    margin-top: -3px;
+}
+
+
+.info-container {
+    margin-top: 70px;
+}
+
+
+.fale-1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #008041;
+    margin-bottom: 10px;
+    font-size: 56px;
+}
+
+
+#mensagem{
+    height: 180px;
+}
+
+
+/* --- Rodapé --- */
+
+.footer {
+    background-color: #00806B;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.menu_rp {
+    color: #F0ECEC;
+}
+
+.social_rp {
+    color: #F0ECEC;
+    margin-top: -30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.footer-container>div {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Logo e Informações */
+.footer-logo {
+    width: 200px;
+    height: 180px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.footer-logo-info p {
+    margin: 8px 0px 12px 0px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: pre;
+}
+
+
+
+
+
+
+
+
+.footer-logo-info i {
+   
+    white-space: pre;
+}
+
+
+
+
+
+
+
+
+/* Menu */
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu {
+    margin-left: 150px;
+}
+
+.footer-menu ul li {
+    margin: 10px 0;
+}
+
+.footer-menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social */
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin: 10px 0;
+}
+
+.footer-social ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário */
+.footer-form h3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    width: 188px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin: 10px 0;
+    resize: none;
+    
+
+
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.btn-submit {
+    background-color: #008041;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #005A2E;
+}
+
+/* Rodapé inferior */
+.footer-bottom {
+    padding: 16px;
+    font-size: 12px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 55px;
+}
+
+.footer-bottom a {
+    background-color: #006857;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+
+.redes{
+    margin-top: 202px;
+ 
+}
